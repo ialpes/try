@@ -1,0 +1,3 @@
+NONPR.o: NONPR.c NONPR.h
+
+NONPR.h:

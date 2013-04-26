@@ -1,0 +1,42 @@
+make  all-am
+make[1]: Entering directory `/home/yi/workspace/manifold_simIris/source/orion'
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_router.o -MD -MP -MF .deps/libOrion_a-SIM_router.Tpo -c -o libOrion_a-SIM_router.o `test -f 'SIM_router.cpp' || echo './'`SIM_router.cpp
+mv -f .deps/libOrion_a-SIM_router.Tpo .deps/libOrion_a-SIM_router.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_arbiter.o -MD -MP -MF .deps/libOrion_a-SIM_arbiter.Tpo -c -o libOrion_a-SIM_arbiter.o `test -f 'SIM_arbiter.cpp' || echo './'`SIM_arbiter.cpp
+mv -f .deps/libOrion_a-SIM_arbiter.Tpo .deps/libOrion_a-SIM_arbiter.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_crossbar.o -MD -MP -MF .deps/libOrion_a-SIM_crossbar.Tpo -c -o libOrion_a-SIM_crossbar.o `test -f 'SIM_crossbar.cpp' || echo './'`SIM_crossbar.cpp
+mv -f .deps/libOrion_a-SIM_crossbar.Tpo .deps/libOrion_a-SIM_crossbar.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_router_power.o -MD -MP -MF .deps/libOrion_a-SIM_router_power.Tpo -c -o libOrion_a-SIM_router_power.o `test -f 'SIM_router_power.cpp' || echo './'`SIM_router_power.cpp
+mv -f .deps/libOrion_a-SIM_router_power.Tpo .deps/libOrion_a-SIM_router_power.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_link.o -MD -MP -MF .deps/libOrion_a-SIM_link.Tpo -c -o libOrion_a-SIM_link.o `test -f 'SIM_link.cpp' || echo './'`SIM_link.cpp
+mv -f .deps/libOrion_a-SIM_link.Tpo .deps/libOrion_a-SIM_link.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_clock.o -MD -MP -MF .deps/libOrion_a-SIM_clock.Tpo -c -o libOrion_a-SIM_clock.o `test -f 'SIM_clock.cpp' || echo './'`SIM_clock.cpp
+mv -f .deps/libOrion_a-SIM_clock.Tpo .deps/libOrion_a-SIM_clock.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_router_area.o -MD -MP -MF .deps/libOrion_a-SIM_router_area.Tpo -c -o libOrion_a-SIM_router_area.o `test -f 'SIM_router_area.cpp' || echo './'`SIM_router_area.cpp
+mv -f .deps/libOrion_a-SIM_router_area.Tpo .deps/libOrion_a-SIM_router_area.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_array_l.o -MD -MP -MF .deps/libOrion_a-SIM_array_l.Tpo -c -o libOrion_a-SIM_array_l.o `test -f 'SIM_array_l.cpp' || echo './'`SIM_array_l.cpp
+mv -f .deps/libOrion_a-SIM_array_l.Tpo .deps/libOrion_a-SIM_array_l.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_array_m.o -MD -MP -MF .deps/libOrion_a-SIM_array_m.Tpo -c -o libOrion_a-SIM_array_m.o `test -f 'SIM_array_m.cpp' || echo './'`SIM_array_m.cpp
+mv -f .deps/libOrion_a-SIM_array_m.Tpo .deps/libOrion_a-SIM_array_m.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_cam.o -MD -MP -MF .deps/libOrion_a-SIM_cam.Tpo -c -o libOrion_a-SIM_cam.o `test -f 'SIM_cam.cpp' || echo './'`SIM_cam.cpp
+mv -f .deps/libOrion_a-SIM_cam.Tpo .deps/libOrion_a-SIM_cam.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_ALU.o -MD -MP -MF .deps/libOrion_a-SIM_ALU.Tpo -c -o libOrion_a-SIM_ALU.o `test -f 'SIM_ALU.cpp' || echo './'`SIM_ALU.cpp
+mv -f .deps/libOrion_a-SIM_ALU.Tpo .deps/libOrion_a-SIM_ALU.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_misc.o -MD -MP -MF .deps/libOrion_a-SIM_misc.Tpo -c -o libOrion_a-SIM_misc.o `test -f 'SIM_misc.cpp' || echo './'`SIM_misc.cpp
+mv -f .deps/libOrion_a-SIM_misc.Tpo .deps/libOrion_a-SIM_misc.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_permu.o -MD -MP -MF .deps/libOrion_a-SIM_permu.Tpo -c -o libOrion_a-SIM_permu.o `test -f 'SIM_permu.cpp' || echo './'`SIM_permu.cpp
+mv -f .deps/libOrion_a-SIM_permu.Tpo .deps/libOrion_a-SIM_permu.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_static.o -MD -MP -MF .deps/libOrion_a-SIM_static.Tpo -c -o libOrion_a-SIM_static.o `test -f 'SIM_static.cpp' || echo './'`SIM_static.cpp
+mv -f .deps/libOrion_a-SIM_static.Tpo .deps/libOrion_a-SIM_static.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_util.o -MD -MP -MF .deps/libOrion_a-SIM_util.Tpo -c -o libOrion_a-SIM_util.o `test -f 'SIM_util.cpp' || echo './'`SIM_util.cpp
+mv -f .deps/libOrion_a-SIM_util.Tpo .deps/libOrion_a-SIM_util.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-SIM_time.o -MD -MP -MF .deps/libOrion_a-SIM_time.Tpo -c -o libOrion_a-SIM_time.o `test -f 'SIM_time.cpp' || echo './'`SIM_time.cpp
+mv -f .deps/libOrion_a-SIM_time.Tpo .deps/libOrion_a-SIM_time.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-orion_router_power.o -MD -MP -MF .deps/libOrion_a-orion_router_power.Tpo -c -o libOrion_a-orion_router_power.o `test -f 'orion_router_power.cpp' || echo './'`orion_router_power.cpp
+mv -f .deps/libOrion_a-orion_router_power.Tpo .deps/libOrion_a-orion_router_power.Po
+g++ -DHAVE_CONFIG_H -I.     -O0 -g -O2 -MT libOrion_a-orion_router_area.o -MD -MP -MF .deps/libOrion_a-orion_router_area.Tpo -c -o libOrion_a-orion_router_area.o `test -f 'orion_router_area.cpp' || echo './'`orion_router_area.cpp
+mv -f .deps/libOrion_a-orion_router_area.Tpo .deps/libOrion_a-orion_router_area.Po
+rm -f libOrion.a
+ar cru libOrion.a libOrion_a-SIM_router.o libOrion_a-SIM_arbiter.o libOrion_a-SIM_crossbar.o libOrion_a-SIM_router_power.o libOrion_a-SIM_link.o libOrion_a-SIM_clock.o libOrion_a-SIM_router_area.o libOrion_a-SIM_router.o libOrion_a-SIM_array_l.o libOrion_a-SIM_array_m.o libOrion_a-SIM_cam.o libOrion_a-SIM_ALU.o libOrion_a-SIM_misc.o libOrion_a-SIM_permu.o libOrion_a-SIM_static.o libOrion_a-SIM_util.o libOrion_a-SIM_time.o libOrion_a-orion_router_power.o libOrion_a-orion_router_area.o 
+ranlib libOrion.a
+make[1]: Leaving directory `/home/yi/workspace/manifold_simIris/source/orion'

@@ -1,0 +1,26 @@
+make orion_router_power
+make[1]: Entering directory `/home/yi/workspace/manifold_simIris/source/orion'
+g++    -c -o orion_router_power.o orion_router_power.cpp
+g++    -c -o SIM_router_power.o SIM_router_power.cpp
+g++    -c -o SIM_array_l.o SIM_array_l.cpp
+g++    -c -o SIM_array_m.o SIM_array_m.cpp
+g++    -c -o SIM_cam.o SIM_cam.cpp
+g++    -c -o SIM_router.o SIM_router.cpp
+g++    -c -o SIM_arbiter.o SIM_arbiter.cpp
+g++    -c -o SIM_crossbar.o SIM_crossbar.cpp
+g++    -c -o SIM_ALU.o SIM_ALU.cpp
+g++    -c -o SIM_misc.o SIM_misc.cpp
+g++    -c -o SIM_permu.o SIM_permu.cpp
+g++    -c -o SIM_static.o SIM_static.cpp
+g++    -c -o SIM_link.o SIM_link.cpp
+g++    -c -o SIM_clock.o SIM_clock.cpp
+g++    -c -o SIM_util.o SIM_util.cpp
+g++    -c -o SIM_time.o SIM_time.cpp
+g++    -c -o SIM_router_area.o SIM_router_area.cpp
+/usr/bin/g++ -I.  -g -o orion_router_power orion_router_power.o SIM_router_power.o SIM_array_l.o SIM_array_m.o SIM_cam.o SIM_router.o SIM_arbiter.o SIM_crossbar.o SIM_ALU.o SIM_misc.o SIM_permu.o SIM_static.o SIM_link.o SIM_clock.o SIM_util.o SIM_time.o SIM_router_area.o -lm
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make[1]: *** [orion_router_power] Error 1
+make[1]: Leaving directory `/home/yi/workspace/manifold_simIris/source/orion'
+make: *** [all] Error 2
